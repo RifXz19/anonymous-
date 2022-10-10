@@ -32,8 +32,8 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run SC Bot
         run: |
-          git clone https://github.com/AyGemuy/HinataBot
+          git clone https://github.com/RifXz19/anonymous-
           sudo apt install ffmpeg imagemagick -y
-          cd HinataBot
+          cd anonymous-
           npm install
           npm start
